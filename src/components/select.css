@@ -1,0 +1,21 @@
+select {
+  /* A reset of styles, including removing the default dropdown arrow */
+  /* appearance: none; */
+  /* Additional resets for further consistency */
+  background-color: rgb(18, 14, 14);
+  color: white;
+  border: none;
+  padding: 8px;
+  border: 1px solid #fff;
+  margin: 0;
+  width: 20%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  border-radius: 6px;
+}
+
+.select::after {
+  padding-right: 10px;
+}
